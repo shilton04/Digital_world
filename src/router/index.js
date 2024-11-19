@@ -13,7 +13,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  mode: "history", // Optional: history mode for cleaner URLs
+  mode: "hash", // Use hash mode for GitHub Pages compatibility
   base: process.env.BASE_URL,
   routes,
 });
