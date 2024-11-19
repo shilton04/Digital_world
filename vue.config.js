@@ -3,6 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: ["vuetify"],
   publicPath:
     process.env.NODE_ENV === "production"
-      ? "/Digital_world-/" // Replace <repository-name> with your actual repo name
+      ? "/Digital_world/" // Replace <repository-name> with your actual repo name
       : "/",
 });
